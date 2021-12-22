@@ -6,15 +6,17 @@ public class AllyMovement : MonoBehaviour
 {
     public float        Speed;
     public bool         CanMove;
+    public bool         isTutorial;
     public GameObject   MTutorialContainer;
 
     private void Awake()
     {
         CanMove = true;
+        isTutorial = true;
     }
     private void Update()
     {
-        if (CanMove == true)
+        if (CanMove == true && isTutorial == true)
         {
             transform.position = transform.position + (Vector3.up * Speed * Time.deltaTime);
         }
@@ -29,6 +31,7 @@ public class AllyMovement : MonoBehaviour
     public void StopMoving()
     {
         CanMove = false;
+        isTutorial = false;
     }
 
     public void KeepMoving()
