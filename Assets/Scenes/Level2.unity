@@ -187,6 +187,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: EnemySpawner
       objectReference: {fileID: 0}
+    - target: {fileID: 8581798088650011293, guid: ad02618022955c54d8eec60f225b3d20,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ad02618022955c54d8eec60f225b3d20, type: 3}
 --- !u!1001 &263042817
@@ -835,7 +840,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &654516197
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2029,7 +2034,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   myPlayerAttack: {fileID: 1759632974}
   myPlayerMovement: {fileID: 1015109628}
-  mySpawner: {fileID: 1058131148}
   myBackground: {fileID: 1590585896}
   myEnemyMovement: {fileID: 1969748797, guid: 145de5e79685d374cb99ad5b6387669a, type: 3}
 --- !u!1 &1988174645
