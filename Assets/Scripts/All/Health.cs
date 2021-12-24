@@ -18,6 +18,7 @@ public class Health : MonoBehaviour
     {
         CurrentHealth = BaseHealth;
         IsAlive = true;
+        myAnimator = GetComponent<Animator>();
     }
 
     public void TakeDamage(int amount)
@@ -31,7 +32,7 @@ public class Health : MonoBehaviour
             if (CurrentHealth <= 0)
             {
                 IsAlive = false;
-                Destroy(this.gameObject, DelayBeforeDestroying);
+                
 
                 if (DeathScreen != null)
                 {
@@ -47,6 +48,8 @@ public class Health : MonoBehaviour
                 {
                     myAnimator.SetBool(DeadBoolName, true);
                 }
+
+                Destroy(this.gameObject, DelayBeforeDestroying);
             }
         }
     }
@@ -72,10 +75,5 @@ public class Health : MonoBehaviour
         {
             myUI.UpdateHealth(CurrentHealth);
         }
-    }
-    
-
-   
-        
-  
+    }  
 }

@@ -23,18 +23,13 @@ public class HealthJet : MonoBehaviour
         {
             CurrentHealth -= amount;
 
-
             if (CurrentHealth <= 0)
             {
                 IsAlive = false;
                 Destroy(this.gameObject, DelayBeforeDestroying);
-            }
-
-            if (DeathClip != null)
-            {
                 SoundHelper.PlaySound(DeathClip);
             }
-
+                
             if (myReward != null)
             {
                 myReward.DropReward();

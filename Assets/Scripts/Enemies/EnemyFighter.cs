@@ -18,12 +18,6 @@ public class EnemyFighter : Enemy
         Patrol();
     }
 
-    public override void TakeDamage()
-    {
-        //Anim muerte
-        //Ruido muerte
-    }
-
     public void Shoot()
     {
         if(canShoot)

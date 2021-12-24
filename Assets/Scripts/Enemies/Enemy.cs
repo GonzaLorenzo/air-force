@@ -25,8 +25,6 @@ public abstract class Enemy : MonoBehaviour
         }
     }
 
-    public abstract void TakeDamage();
-
     public Enemy SetPos (Vector3 newPos)
     {
         transform.position = newPos;

@@ -1822,6 +1822,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 545949955796714007, guid: 8cc065d92d3c894409c949e069790b5b,
+        type: 3}
+      propertyPath: m_Text
+      value: "Se acercan enemigos! R\xE1pido, prueba disparar con Space!"
+      objectReference: {fileID: 0}
     - target: {fileID: 545949955907074712, guid: 8cc065d92d3c894409c949e069790b5b,
         type: 3}
       propertyPath: StageMusic
@@ -1982,6 +1987,31 @@ PrefabInstance:
       propertyPath: m_Name
       value: Canvas
       objectReference: {fileID: 0}
+    - target: {fileID: 545949955920885161, guid: 8cc065d92d3c894409c949e069790b5b,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 545949956641813208, guid: 8cc065d92d3c894409c949e069790b5b,
+        type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 250
+      objectReference: {fileID: 0}
+    - target: {fileID: 545949956641813208, guid: 8cc065d92d3c894409c949e069790b5b,
+        type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 210
+      objectReference: {fileID: 0}
+    - target: {fileID: 545949956641813208, guid: 8cc065d92d3c894409c949e069790b5b,
+        type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -90
+      objectReference: {fileID: 0}
+    - target: {fileID: 545949956641813208, guid: 8cc065d92d3c894409c949e069790b5b,
+        type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 90
+      objectReference: {fileID: 0}
     - target: {fileID: 545949956691724458, guid: 8cc065d92d3c894409c949e069790b5b,
         type: 3}
       propertyPath: m_Name
@@ -2036,6 +2066,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_SizeDelta.x
       value: 800
+      objectReference: {fileID: 0}
+    - target: {fileID: 545949957292994703, guid: 8cc065d92d3c894409c949e069790b5b,
+        type: 3}
+      propertyPath: m_Text
+      value: Space
+      objectReference: {fileID: 0}
+    - target: {fileID: 545949957292994703, guid: 8cc065d92d3c894409c949e069790b5b,
+        type: 3}
+      propertyPath: m_FontData.m_FontSize
+      value: 62
       objectReference: {fileID: 0}
     - target: {fileID: 545949957308149800, guid: 8cc065d92d3c894409c949e069790b5b,
         type: 3}
@@ -2959,6 +2999,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Player
+      objectReference: {fileID: 0}
+    - target: {fileID: 6808232231466052733, guid: 75c60095b297799408079d3ad2777d6b,
+        type: 3}
+      propertyPath: m_LinearDrag
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6808232231466052736, guid: 75c60095b297799408079d3ad2777d6b,
+        type: 3}
+      propertyPath: AttackKey
+      value: 32
       objectReference: {fileID: 0}
     - target: {fileID: 6808232231466052737, guid: 75c60095b297799408079d3ad2777d6b,
         type: 3}

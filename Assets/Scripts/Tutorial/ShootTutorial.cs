@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class ShootTutorial : MonoBehaviour
 {
-    public KeyCode              CloseKey = KeyCode.J;
+    private KeyCode              CloseKey = KeyCode.Space;
     public float                DelayBeforeEnemy;
     public GameObject           STutorialContainer;
     public GameObject           Enemy;
