@@ -13,12 +13,15 @@ public class Health : MonoBehaviour
     public AudioClip DeathClip;
     public string DeadBoolName;
     public Animator myAnimator;
+    public CapsuleCollider2D myCollider;
+
 
     private void Awake()
     {
         CurrentHealth = BaseHealth;
         IsAlive = true;
         myAnimator = GetComponent<Animator>();
+        myCollider = GetComponent<CapsuleCollider2D>();
     }
 
     public void TakeDamage(int amount)
@@ -32,7 +35,11 @@ public class Health : MonoBehaviour
             if (CurrentHealth <= 0)
             {
                 IsAlive = false;
-                
+
+                if (myCollider != null)
+                {
+                    myCollider.enabled = false;
+                }
 
                 if (DeathScreen != null)
                 {
@@ -46,8 +53,10 @@ public class Health : MonoBehaviour
 
                 if(myAnimator != null)
                 {
-                    myAnimator.SetBool(DeadBoolName, true);
+                    myAnimator.SetBool("IsExploding", true);
+                    Debug.Log("Se hace");
                 }
+                
 
                 Destroy(this.gameObject, DelayBeforeDestroying);
             }

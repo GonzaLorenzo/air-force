@@ -1822,6 +1822,21 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 545949955347591829, guid: 8cc065d92d3c894409c949e069790b5b,
+        type: 3}
+      propertyPath: m_FontData.m_FontSize
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 545949955347591829, guid: 8cc065d92d3c894409c949e069790b5b,
+        type: 3}
+      propertyPath: m_FontData.m_MinSize
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 545949955347591829, guid: 8cc065d92d3c894409c949e069790b5b,
+        type: 3}
+      propertyPath: m_FontData.m_MaxSize
+      value: 72
+      objectReference: {fileID: 0}
     - target: {fileID: 545949955796714007, guid: 8cc065d92d3c894409c949e069790b5b,
         type: 3}
       propertyPath: m_Text
@@ -2146,6 +2161,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_StringArgument
       value: MainMenu
+      objectReference: {fileID: 0}
+    - target: {fileID: 545949957416723514, guid: 8cc065d92d3c894409c949e069790b5b,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8cc065d92d3c894409c949e069790b5b, type: 3}

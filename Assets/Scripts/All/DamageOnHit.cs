@@ -21,21 +21,4 @@ public class DamageOnHit : MonoBehaviour
             HitHealthJet.TakeDamage(amount);
         }
     }
-
-    private void OnCollisionEnter2D(Collision2D collision)
-    {
-        Health HitHealth = collision.gameObject.GetComponent<Health>();
-        HealthJet HitHealthJet = collision.gameObject.GetComponent<HealthJet>();
-
-        if (HitHealth != null)
-        {
-            HitHealth.TakeDamage(amount);
-        }
-
-        if (HitHealthJet != null)
-        {
-            HitHealthJet.TakeDamage(amount);
-        }
-    }
-
 }
