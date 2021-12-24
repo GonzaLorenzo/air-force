@@ -2,11 +2,10 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class EnemyFighter : Enemy
+public class EnemyFighter : Enemy, IShooter
 {
     Animator _myAnim;
-    private bool canShoot;
-
+    
     void Awake()
     {
         _myAnim = GetComponent<Animator>();

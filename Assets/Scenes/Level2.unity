@@ -275,6 +275,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: StopSpawn
       objectReference: {fileID: 0}
+    - target: {fileID: 925755733242261169, guid: 8030fba0b27612145a7d212439f481f9,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 925755733242261172, guid: 8030fba0b27612145a7d212439f481f9,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -2051,7 +2056,7 @@ GameObject:
   m_Icon: {fileID: 6519382022992737161, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1988174646
 Transform:
   m_ObjectHideFlags: 0
