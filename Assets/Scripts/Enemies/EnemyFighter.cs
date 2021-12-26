@@ -5,10 +5,9 @@ using UnityEngine;
 public class EnemyFighter : Enemy, IShooter
 {
     Animator _myAnim;
-    Collider2D player;
     private float viewDistance = 100f;
     Transform shotPoint;
-    BoxCollider2D playerCollider;
+
     [SerializeField]
     GameObject projectilePrefab;
     public LayerMask playerMask;

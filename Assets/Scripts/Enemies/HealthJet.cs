@@ -10,9 +10,11 @@ public class HealthJet : MonoBehaviour
     public float            DelayBeforeDestroying;
     public AudioClip        DeathClip;
     public HealthJetReward  myReward;
+    Animator myAnimator;
 
     private void Awake()
     {
+        myAnimator = GetComponent<Animator>();
         CurrentHealth = BaseHealth;
         IsAlive = true;
     }
@@ -27,6 +29,7 @@ public class HealthJet : MonoBehaviour
             {
                 IsAlive = false;
                 Destroy(this.gameObject, DelayBeforeDestroying);
+                myAnimator.SetBool("IsExploding", true);
                 SoundHelper.PlaySound(DeathClip);
             }
                 

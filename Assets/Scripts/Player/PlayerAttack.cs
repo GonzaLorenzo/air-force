@@ -15,7 +15,7 @@ public class PlayerAttack : MonoBehaviour
     public AudioClip    ShotClip;
     public bool         CanAttack;
     private float _timePassed;
-    private float _shootTime = 0.4f;
+    private float _shootTime = 0.2f;
 
     void Start()
     {

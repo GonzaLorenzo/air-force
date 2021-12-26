@@ -54,7 +54,6 @@ public class Health : MonoBehaviour
                 if(myAnimator != null)
                 {
                     myAnimator.SetBool("IsExploding", true);
-                    Debug.Log("Se hace");
                 }
                 
 
