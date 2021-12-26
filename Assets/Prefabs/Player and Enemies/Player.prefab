@@ -236,7 +236,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b739ef01582e9b94bbaf8b3a2122dff7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  AttackKey: 106
+  AttackKey: 32
   ProjectilePrefab: {fileID: 7464536336135207478, guid: 1fcb197e8bbf8b44cafe24a6355a75f2,
     type: 3}
   SpawnedProjectile: {fileID: 7464536336135207478, guid: 1fcb197e8bbf8b44cafe24a6355a75f2,
@@ -268,6 +268,7 @@ MonoBehaviour:
   DeathClip: {fileID: 0}
   DeadBoolName: 
   myAnimator: {fileID: 0}
+  myCollider: {fileID: 0}
 --- !u!114 &55821652
 MonoBehaviour:
   m_ObjectHideFlags: 0

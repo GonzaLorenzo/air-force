@@ -147,5 +147,5 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   myRigidBody2D: {fileID: 0}
-  speed: 600
+  speed: 400
   destroyTime: 5

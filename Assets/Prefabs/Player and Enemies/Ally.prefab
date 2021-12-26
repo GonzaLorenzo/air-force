@@ -124,6 +124,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Speed: 3
   CanMove: 0
+  isTutorial: 0
   MTutorialContainer: {fileID: 0}
 --- !u!114 &5560026423751509409
 MonoBehaviour:
@@ -137,18 +138,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5d99e8c78cf48c2459bfdb9fa2f60ee0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Waypoints:
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  Speed: 4
+  waypoints: []
+  Speed: 6
   CanMove: 0
 --- !u!50 &900868110
 Rigidbody2D:

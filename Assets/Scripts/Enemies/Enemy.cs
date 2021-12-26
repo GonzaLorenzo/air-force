@@ -13,7 +13,7 @@ public abstract class Enemy : MonoBehaviour
     {
         Vector3 dir = waypoints[_currentWaypoint].position - transform.position;
         Vector3 actualDir = dir.normalized;
-        transform.up = dir.normalized;
+        //transform.up = dir.normalized;
         transform.position += actualDir * speed * Time.deltaTime;
 
         if(dir.magnitude < 0.1f)
