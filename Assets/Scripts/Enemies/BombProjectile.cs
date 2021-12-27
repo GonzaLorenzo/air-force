@@ -8,7 +8,7 @@ public class BombProjectile : MonoBehaviour
     private Rigidbody2D   _rb;
     [SerializeField]
     private float       speed = 2.5f;
-    
+    public GameObject explosion;    
     void Awake()
     {
         _rb = GetComponent<Rigidbody2D>();
@@ -21,6 +21,7 @@ public class BombProjectile : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D other)
     {
+        Instantiate(explosion, transform.position, Quaternion.identity);
         Destroy(this.gameObject);
     }
 

@@ -148,3 +148,5 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _rb: {fileID: 0}
   speed: 4
+  explosion: {fileID: 7491121518108854630, guid: fb22e97fdd9c8ae4c9b34dbb32d756bf,
+    type: 3}
