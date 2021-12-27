@@ -30,7 +30,6 @@ public class PlayerMovement : MonoBehaviour
         {
             transform.position = transform.position + (Vector3.up * LevelEndSpeed * Time.deltaTime);
         }
-
     }
 
     private void FixedUpdate()
@@ -39,7 +38,6 @@ public class PlayerMovement : MonoBehaviour
         {
            myRigidBody.MovePosition((Vector2)transform.position + InputVector * (Speed * Time.fixedDeltaTime));
         }
-        
     }
     
     public void DestroyPlayer()

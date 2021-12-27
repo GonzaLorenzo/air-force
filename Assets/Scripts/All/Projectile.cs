@@ -5,6 +5,7 @@ using UnityEngine;
 public class Projectile : MonoBehaviour
 {
     public Rigidbody2D  myRigidBody2D;
+    public GameObject explosion;
     public float        Speed;
     public float DestroyTime = 3f;
 
@@ -15,6 +16,7 @@ public class Projectile : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
+        Instantiate(explosion, transform.position, Quaternion.identity);
         Destroy(this.gameObject);
     }
 
