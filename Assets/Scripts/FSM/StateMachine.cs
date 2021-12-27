@@ -7,7 +7,7 @@ public enum EnemyStatesEnum
     Entrance,
     BombAttack,
     BurstAttack,
-    ThirdAttack
+    SecondBurstAttack
 }
 
 public class StateMachine

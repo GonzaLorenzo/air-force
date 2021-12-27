@@ -10,6 +10,7 @@ public class Health : MonoBehaviour
     public float DelayBeforeDestroying;
     public HealthUI myUI;
     public GameObject DeathScreen;
+    public GameObject WinScreen;
     public AudioClip DeathClip;
     public string DeadBoolName;
     public Animator myAnimator;
@@ -44,6 +45,11 @@ public class Health : MonoBehaviour
                 if (DeathScreen != null)
                 {
                     DeathScreen.SetActive(true);
+                }
+
+                if (WinScreen != null)
+                {
+                    WinScreen.SetActive(true);
                 }
 
                 if (DeathClip != null)
@@ -83,5 +89,5 @@ public class Health : MonoBehaviour
         {
             myUI.UpdateHealth(CurrentHealth);
         }
-    }  
+    }
 }

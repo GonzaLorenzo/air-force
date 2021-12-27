@@ -31,7 +31,6 @@ public class EntranceState : IState
         {
             _enemy.ZeroVelocity();
             _fsm.ChangeState(EnemyStatesEnum.BurstAttack);
-            Debug.Log("hola");
         }
     }
 

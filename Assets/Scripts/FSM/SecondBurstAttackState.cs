@@ -2,14 +2,14 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class BurstAttackState : IState
+public class SecondBurstAttackState : IState
 {
     private StateMachine _fsm;
     private FinalBoss _enemy;
     private float _timePassed;
     private float _attackTime = 2f;
 
-    public BurstAttackState(StateMachine fsm, FinalBoss p)
+    public SecondBurstAttackState(StateMachine fsm, FinalBoss p)
     {
         _fsm = fsm;
         _enemy = p;
@@ -22,15 +22,15 @@ public class BurstAttackState : IState
 
     public void OnUpdate()
     {
-        _enemy.BurstAttack();
-        
+        _enemy.SecondBurstAttack();
+
         if(_timePassed > 0)
         {
             _timePassed -= Time.deltaTime;
         }
         else
         {
-            _fsm.ChangeState(EnemyStatesEnum.BombAttack);
+            _fsm.ChangeState(EnemyStatesEnum.BurstAttack);
         }
     }
     
