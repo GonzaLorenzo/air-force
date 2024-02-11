@@ -1906,7 +1906,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Parece que enviaron refuerzos
+  m_Text: Reinforcements incoming!
 --- !u!222 &437510313
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -2360,7 +2360,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 0, y: 200}
-  m_SizeDelta: {x: 1000, y: 500}
+  m_SizeDelta: {x: 1061.24, y: 500}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &587315259
 MonoBehaviour:
@@ -2393,9 +2393,9 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 'Sobreviviste a los refuerzos!
+  m_Text: 'You survived the reinforcements!
 
-    Estas un paso mas cerca de la base enemiga.'
+    You are closer to the enemy base.'
 --- !u!222 &587315260
 CanvasRenderer:
   m_ObjectHideFlags: 0

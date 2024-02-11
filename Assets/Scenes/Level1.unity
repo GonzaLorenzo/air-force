@@ -1840,7 +1840,7 @@ PrefabInstance:
     - target: {fileID: 545949955796714007, guid: 8cc065d92d3c894409c949e069790b5b,
         type: 3}
       propertyPath: m_Text
-      value: "Se acercan enemigos! R\xE1pido, prueba disparar con Space!"
+      value: Some enemies are approaching! Quick, hold Space to shoot!
       objectReference: {fileID: 0}
     - target: {fileID: 545949955907074712, guid: 8cc065d92d3c894409c949e069790b5b,
         type: 3}
@@ -2082,6 +2082,13 @@ PrefabInstance:
       propertyPath: m_SizeDelta.x
       value: 800
       objectReference: {fileID: 0}
+    - target: {fileID: 545949957218132349, guid: 8cc065d92d3c894409c949e069790b5b,
+        type: 3}
+      propertyPath: m_Text
+      value: 'You survived the first attack!
+
+        But you still need to reach the enemy base.'
+      objectReference: {fileID: 0}
     - target: {fileID: 545949957292994703, guid: 8cc065d92d3c894409c949e069790b5b,
         type: 3}
       propertyPath: m_Text
@@ -2115,7 +2122,7 @@ PrefabInstance:
     - target: {fileID: 545949957308149803, guid: 8cc065d92d3c894409c949e069790b5b,
         type: 3}
       propertyPath: m_Text
-      value: Bienvenido a tu entrenamiento, empieza usando W A S D para moverte.
+      value: Welcome to your training, start by pressing W - A - S - D to move around.
       objectReference: {fileID: 0}
     - target: {fileID: 545949957312055987, guid: 8cc065d92d3c894409c949e069790b5b,
         type: 3}

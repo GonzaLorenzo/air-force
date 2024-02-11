@@ -539,9 +539,11 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 'Derrotaste al jefe final!
+  m_Text: 'You defeated the final boss!
 
-    Terminaste el juego!'
+
+
+    Thank you for playing'
 --- !u!222 &465686739
 CanvasRenderer:
   m_ObjectHideFlags: 0
